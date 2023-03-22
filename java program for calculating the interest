@@ -1,0 +1,14 @@
+class Byaaj{
+//instance variable bna diye hai
+float p = 1000;
+float r = 5;
+float t = 3.2f;
+float byaj;
+public static void main(String args[]){
+//variables ko access krne ke liye object bhi bna diye
+Byaaj ob = new Byaaj();
+ob.byaj = (ob.p*ob.r*ob.t)/100;
+System.out.println(ob.byaj);
+
+}
+}
