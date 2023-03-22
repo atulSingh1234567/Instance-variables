@@ -1,0 +1,15 @@
+import java.util.Scanner;
+class Area{
+// declaring an instance variable
+double rad;
+public static void main(String args[]){
+//creating object to get the access of the instance variable
+Area radob = new Area();
+Scanner sc = new Scanner(System.in);
+radob.rad = sc.nextDouble();
+
+double area = 3.14*radob.rad*radob.rad;
+System.out.println(area);
+
+}
+}
